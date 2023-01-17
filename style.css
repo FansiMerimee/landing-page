@@ -110,7 +110,15 @@ nav ul li a {
     border: 3px solid #3882f6;
     height: 150px;
     border-radius: 20px;
+    overflow: hidden;
+
 }
+
+#info-section .card-img img{
+    height: 150px;
+    width: 100%;
+}
+
 #info-section .card-desc {
     font-size: 18px;
     color: #000;
