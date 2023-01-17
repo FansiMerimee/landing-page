@@ -7,6 +7,9 @@
 body {
     font-family: 'Roboto';
 }
+#hero{
+    height: 90vh;
+}
 
 #hero,
 footer{
@@ -17,7 +20,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
+    height: 10vh;
+
 }
 
 header>a {
@@ -34,7 +38,47 @@ nav ul {
 nav ul li a {
     color: #e5e7eb;
     font-size: 18px;
-    font-weight: 200;
     padding: 0 20px;
     text-decoration: none;
+}
+
+#hero-main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left {
+    width: 33%;
+}
+
+.content-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+.content-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+
+}
+
+.content-left button {
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #fff;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.content-right img{
+    max-width: 500px;
+    height: auto;
 }
