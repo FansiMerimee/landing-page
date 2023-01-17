@@ -127,7 +127,7 @@ nav ul li a {
 
 #quote div {
     width: 70%;
-    margin:auto;
+    margin: auto;
     padding: 50px 0;
 }
 
@@ -142,3 +142,45 @@ nav ul li a {
     font-weight: bold;
     font-size: 24px;
 }
+
+/* Call to Action Section */
+
+#cta {
+    height: 250px;
+    display: flex;
+}
+
+#cta>div {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    padding: 30px 0;
+    border-radius: 5px;
+}
+
+#cta .cta-text h3 {
+    color: white;
+}
+
+#cta .cta-text p{
+    color: #e5e7eb;
+}
+
+#cta button {
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #fff;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
