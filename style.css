@@ -117,3 +117,28 @@ nav ul li a {
     margin: 8px 0 8px 0;
     width: 100%;
 }
+
+/* Quote Section background */
+
+#quote {
+    background-color: #e5e7eb;
+    height: 350px;
+}
+
+#quote div {
+    width: 70%;
+    margin:auto;
+    padding: 50px 0;
+}
+
+#quote figure {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+#quote figure figcaption {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
